@@ -46,7 +46,7 @@ bin/whd_gen-linux-x86_64  DOOM.WAD  MEIN-NAME.uf2  -no-super-tiny
   `_1`, `_2`, … an den Namen angehängt.
 - `-no-super-tiny` ist wichtig (passend zur `doom_tiny_nost`-Firmware).
 
-Die erzeugte `.uf2` dann auf den PicoBoy bringen — siehe [`../FLASHEN.md`](../FLASHEN.md).
+Die erzeugte `.uf2` dann auf den PicoBoy bringen — siehe [`ANLEITUNG.md`](ANLEITUNG.md).
 
 ## Binaries
 `bin/` enthält `whd_gen` fertig gebaut für:
