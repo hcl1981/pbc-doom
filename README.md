@@ -141,3 +141,10 @@ vorbei.
 
 GPL-2.0, wie Chocolate Doom und rp2040-doom. Siehe `LICENSE`. Wer die Firmware
 weitergibt, muss den Quelltext mitliefern oder anbieten.
+
+## Herkunft und Download
+
+Teil der Sammlung für den PicoBoy Color Plus; Übersicht und
+Hardware-Referenz: [pbc-plus](https://github.com/hcl1981/pbc-plus). Die fertige Firmware
+(doom-usb-mp.uf2 und freedoom1.uf2) liegt unter **Releases**. `./build.sh` baut nach `dist/`;
+Werkzeuge und SDK siehe [`docs/BAUEN.md`](docs/BAUEN.md).

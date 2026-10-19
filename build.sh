@@ -2,7 +2,7 @@
 #
 # Baut Doom für den PicoBoy Color Plus.
 #
-#   picoboy-doom  ->  ../dist/doom-usb-mp.uf2
+#   picoboy-doom  ->  dist/doom-usb-mp.uf2
 #
 # Mehrspieler läuft über ein USB-C-Kabel zwischen zwei Geräten (usblink.c).
 # Die Änderungen an der Bildausgabe, die die vollen 35 Tics je Sekunde halten,
@@ -21,14 +21,14 @@
 # WICHTIG: Die Firmware allein spielt nichts. Die Level kommen aus einer
 # WAD-Datei, die als zweite UF2 an eine eigene Flash-Adresse geht. Das
 # Werkzeug dafür liegt in wad2uf2/ — siehe dessen ANLEITUNG.md. Dieselben
-# Dateien liegen noch einmal in ../dist/doom/, zusammen mit der Firmware.
+# Dateien liegen noch einmal in dist/doom/, zusammen mit der Firmware.
 #
 # Aufruf:   ./build.sh          bauen
 #           ./build.sh clean    Bauordner löschen und neu bauen
 #
 set -uo pipefail
 HIER="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-. "${HIER}/../tools/pbc_build.sh"
+. "${HIER}/tools/pbc_build.sh"
 
 PROJ="${HIER}/picoboy-doom"
 BDIR="${PROJ}/build-picoboy"

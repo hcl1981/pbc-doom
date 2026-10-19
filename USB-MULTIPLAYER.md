@@ -189,7 +189,7 @@ Der Reihe nach die wahrscheinlichsten Ursachen:
 ## Bauen
 
 ```bash
-./build.sh          # baut doom_tiny_nost -> ../dist/doom-usb-mp.uf2
+./build.sh          # baut doom_tiny_nost -> dist/doom-usb-mp.uf2
 ```
 
 Neu konfigurieren (falls das Build-Verzeichnis fehlt):
